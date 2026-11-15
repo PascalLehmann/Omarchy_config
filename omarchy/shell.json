@@ -1,0 +1,169 @@
+{
+  "bar": {
+    "centerAnchor": "omarchy.clock",
+    "layout": {
+      "center": [
+        {
+          "id": "omarchy.indicators"
+        },
+        {
+          "format": "ddd d MMM HH:mm",
+          "formatAlt": "d MMMM 'W'ww yyyy",
+          "id": "omarchy.clock",
+          "verticalFormat": "HH\n—\nmm"
+        },
+        {
+          "id": "omarchy.elsewhen",
+          "cities": [
+            {
+              "name": "Berlin",
+              "zone": "Europe/Berlin"
+            },
+            {
+              "name": "Delhi",
+              "zone": "Asia/Kolkata"
+            },
+            {
+              "name": "Tokyo",
+              "zone": "Asia/Tokyo"
+            },
+            {
+              "name": "Los Angeles",
+              "zone": "America/Los_Angeles"
+            },
+            {
+              "name": "New York",
+              "zone": "America/New_York"
+            }
+          ]
+        },
+        {
+          "id": "omarchy.weather"
+        },
+        {
+          "id": "omarchy.microphone"
+        },
+        {
+          "id": "omarchy.media"
+        },
+        {
+          "id": "omarchy.system-update"
+        }
+      ],
+      "left": [
+        {
+          "id": "omarchy.menu"
+        },
+        {
+          "id": "tornikegomareli.spaces",
+          "holdSuperNumbers": true,
+          "perMonitor": true,
+          "showIcons": true,
+          "showApps": "all",
+          "iconStyle": "color",
+          "labelStyle": "number",
+          "pillHeight": 0,
+          "density": "compact",
+          "activeStyle": "subtle",
+          "hideEmpty": false
+        },
+        {
+          "id": "omarchy.active-window"
+        }
+      ],
+      "right": [
+        {
+          "id": "omarchy.keyboard-layout"
+        },
+        {
+          "id": "omarchy.tray"
+        },
+        {
+          "id": "felixzsh.key-visualizer"
+        },
+        {
+          "id": "tech.greyforge.reprieve"
+        },
+        {
+          "id": "gladimdim.config-sync"
+        },
+        {
+          "id": "crmne.hyprmoncfg"
+        },
+        {
+          "id": "io.github.twiking.omacontrol"
+        },
+        {
+          "id": "nixfred.doctor",
+          "iconStyle": "badge"
+        },
+        {
+          "id": "pretty.omagen"
+        },
+        {
+          "id": "bjarneo.workspace-layout"
+        },
+        {
+          "id": "omarchy.agents"
+        },
+        {
+          "id": "omarchy.bluetooth"
+        },
+        {
+          "id": "omarchy.network"
+        },
+        {
+          "id": "omarchy.audio"
+        },
+        {
+          "id": "omarchy.monitor"
+        },
+        {
+          "id": "omarchy.power",
+          "showPercentage": true
+        }
+      ],
+      "centerBegin": [],
+      "centerEnd": [
+        {
+          "id": "gona.launcher"
+        },
+        {
+          "id": "omaplug"
+        }
+      ],
+      "tray": []
+    },
+    "position": "top",
+    "transparent": false
+  },
+  "idle": {
+    "lock": 300,
+    "screensaver": 150
+  },
+  "plugins": [
+    {
+      "id": "io.github.sirjul1337.lock-explorer",
+      "tourSeen": true,
+      "openAs": "panel",
+      "boot": "terminal",
+      "design": "seismograph"
+    },
+    {
+      "id": "bobbynicholas.omaland"
+    },
+    {
+      "id": "io.github.mtolhuys.fathom"
+    },
+    {
+      "id": "expose.window-overview"
+    }
+  ],
+  "version": 1,
+  "disabledPlugins": [
+    "omarchy.lock"
+  ],
+  "cloneSourceRestores": [
+    "io.github.sirjul1337.lock-explorer"
+  ]
+}
